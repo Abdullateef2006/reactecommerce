@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body {
+  background-color: #f9f9f9;
+  scroll-behavior: smooth;
+
+}
+
+* {
+  font-family: 'PT Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /* background-image: url(images/back.jpg); */
+    background-position: center;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .profile-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    padding: 30px;
+    border: 1px solid #ffffff40;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  }
+  .image{
+    position: relative;
+    height: 150px;
+    width: 150px;
+  }
+  .image .profile-pic{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+  }
+  .data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .data h2{
+    font-size: 33px;
+    font-weight: 600;
+  }
+  span{
+    font-size: 18px;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .Edit {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .buttons .btn{
+    width: 1000%;
+    height: 50px;
+    border-radius: 15px;
+    border: none;
+    background: red;
+    color: white;
+    font-size: larger;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+  }
+  .buttons .btn:hover{
+    box-shadow: inset 0 5px 20px rgba(0,0,0,0.4);
+  }
+
+  #pencilIcon {
+    color: red;
+  }
